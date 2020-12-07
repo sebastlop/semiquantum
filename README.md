@@ -1,18 +1,18 @@
 # Semi-Quantum
 
-_ Este programa hace simulaciones clásicas de trayectorias de un átomo de 
+_Este programa hace simulaciones clásicas de trayectorias de un átomo de 
 un electron que interactúa con un campo láser bajo el modelo de dos pasos._
 
 ## Comenzando
 
-_ Toda la información científica del tipo de simulaciones y del código 
+_Toda la información científica del tipo de simulaciones y del código 
 se encuentra en el siguiente sitio:
-http://lopez-musica.com.ar/semi-quantum-code _
+http://lopez-musica.com.ar/semi-quantum-code_
 
 
 ### Pre-requisitos
 
-_ Este código ha sido compilado y verificado con GNU fortran _
+_Este código ha sido compilado y verificado con GNU fortran_
 
 ```
 gfortran -o exec.x CTMC_varstep_dec2020.f90 ./dependencies/randoms.f ./dependencies/RK4.f

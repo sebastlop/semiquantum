@@ -338,7 +338,7 @@ SUBROUTINE derivs(x,y,dydx)
   elseif (model==1) then
     yuk = -beta*dexp(-alfa*rmod)/rmod**2*(alfa+1d0/rmod)
     dydx(3)=y(1)*yuk
-    dydx(4)=-campo(x)-y(2)*yuk  
+    dydx(4)=-campo(x)+y(2)*yuk  
   end if
   return
 END
